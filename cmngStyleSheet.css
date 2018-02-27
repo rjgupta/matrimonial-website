@@ -1,0 +1,10 @@
+﻿body {
+    
+}
+#div1{
+    background-image:url('images/coming soon!!!.png');
+    background-repeat:no-repeat;
+    height:800px;
+    width:600px;
+    margin-left:230px;
+}

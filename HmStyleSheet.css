@@ -1,0 +1,19 @@
+﻿body {
+    background-color:gainsboro;
+    background:url('images/Happily Married Cover.jpg');
+    background-repeat:no-repeat;
+}
+
+
+.title1 #title2{
+    
+    height:420px;
+}
+
+#table1{
+    margin-left:200px;
+}
+
+#part2{
+    margin-left:0px;
+}

@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="GenMasterPage.master.cs" Inherits="GenMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheethme.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div>
+    <div id="main">
+        <div id="head1">
+            <h2>Happily Married.com</h2>
+            <p>Yaha Rishto ko Ahmiyat di jaati h</p>
+        </div>
+        <div id="menub">
+            <ul>
+                <li><a href="Index.aspx">Home</a></li>
+                <li><a href="Aboutus.aspx">About Us</a></li>
+                <li><a href="Registration.aspx">Registration</a></li>
+                <li><a href="Userlogin.aspx">User Login</a></li>
+                <li><a href="Adminlogin.aspx">Admin Login</a></li>
+                <li><a href="Contactus.aspx">Contact US</a></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            <p>All Rights Reserved 2016 @Happily Married Team
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

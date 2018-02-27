@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ProMasterPage.master.cs" Inherits="ProMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 282px;
+        }
+        .auto-style2 {
+            width: 98%;
+            height: 195px;
+        }
+        .auto-style4 {
+            width: 110px;
+        }
+        .auto-style5 {
+            width: 134px;
+        }
+        .auto-style6 {
+            width: 145px;
+        }
+        .auto-style7 {
+            width: 43%;
+        }
+        .auto-style8 {
+            width: 101px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+
+        <div class="wrapper col1">
+  <div id="topbar">
+    <p>Tel: 0731 2798034 | Mail: happilymarried@gmail.com</p>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+        <li><a href="Updateprofile.aspx">Update Profile</a></li>      
+        <li><asp:Button ID="btn" runat="server" Text="Logout" BackColor="Maroon" BorderStyle="None" ForeColor="Red" OnClick="btn_Click" /></li>
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col2">
+  <div id="header">
+    <div id="topnav">
+      <ul>
+        <li><a href="Services.aspx">Services</a></li>
+        <li><a href="Recommend.aspx">Daily</a><span>Recommendations</span></li>
+        <li><a href="Matches.aspx">Matches</a></li>
+        <li><a href="Search.aspx">Search</a></li>
+        <li class="active"><a href="Myhome.aspx">My Home</a></li>
+      </ul>
+    </div>
+    <div id="logo">
+      <h1 class="auto-style1"><a href="#">Happily Married</a></h1>
+      <p>Yaha Rishto ko Ahmiyat di jaati h</p>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+
+
+
+
+
+
+
+<div class="wrapper col5">
+  <div id="footer">
+    <div id="newsletter">
+      <h2>Stay In The Know !</h2>
+       
+      <form action="#" method="post">
+        <fieldset>
+          <legend>News Letter</legend>
+          <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+          <input type="submit" name="news_go" id="news_go" value="GO" />
+        </fieldset>
+      </form>
+      <p>To unsubscribe please <a href="#">click here &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>Social Initiatives</h2>
+      <ul>
+        <li><a href="#">HM Blood Bank</a></li>
+        <li><a href="#">HM Eye Bank</a></li>
+        <li><a href="#">HM Green Hands</a></li>
+        <li><a href="#">HM Good makes noise</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Our Other Services</h2>
+      <ul>
+        <li><a href="#">Assisted Matrimony</a></li>
+        <li><a href="#">Elite Matrimony</a></li>
+        <li><a href="#">Matrimony Photography</a></li>
+        <li><a href="#">Matrimony Directory</a></li>
+        <li class="last"><a href="#">Wednsapper</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Help &Support</h2>
+      <ul>
+        <li><a href="#">24x7 Live help</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li class="last"><a href="#">Safety Tips</a></li>
+      </ul>        
+    </div>
+    <br class="clear" />
+  </div>
+
+    <hr />
+    
+    <div id="btmbar">
+    <p><strong>INFORMATION: &nbsp;</strong></p>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Success Stories</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Advertise with us</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Careers</a></li>
+      <li class="last"><a href="#">Privacy Policy</a></li>
+    </ul>
+    <br class="clear" />
+  </div>
+
+
+
+
+
+</div>
+
+<div class="wrapper col6">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Happily Married</a></p>
+    <p class="fl_right">Website Designed by :<a href="http://www.os-templates.com/" title="Free Website Templates"> Happily Married Team</a></p>
+    <br class="clear" />
+  </div>
+</div>
+
+    </div>
+    </form>
+</body>
+</html>

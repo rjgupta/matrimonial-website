@@ -5,7 +5,7 @@ Me and my friend Pranshur Dubey edited and customized a template from the web to
 
 ***I don't own the Rights for the template I used to create this website and I don't have the information about the person who created this template.***
 
-This is the very first website that we created while learning ASP.NET, HTML and CSS. The project is not documented because we didn't knew how to document our projects.
+This is the very first website that we created while learning ASP.NET, HTML and CSS. The project is not documented because we didn't knew how to document our projects back then.
 
 In the repository you'll find `Documentation.pdf` which contains all the details about the project including:
 
